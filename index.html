@@ -57,7 +57,7 @@
   .btn-outline:hover{border-color:var(--ink);}
 
   /* ---------- hero ---------- */
-  .hero{padding:60px 0 40px; position:relative; overflow:hidden;}
+  .hero{padding:64px 0 44px; position:relative; overflow:hidden; background:#FFFFFF; text-align:center;}
   .ring{position:absolute; right:-90px; top:-90px; width:280px; height:280px; border-radius:50%; border:1.5px solid var(--blue-soft); opacity:.9;}
   .ring.r2{right:-40px; top:-40px; width:180px; height:180px; border-color:var(--rule);}
   .eyebrow{
@@ -67,11 +67,11 @@
   .eyebrow::before{content:""; width:6px; height:6px; background:var(--blue); border-radius:50%;}
   h1.title{
     font-size:clamp(32px,5vw,48px); font-weight:800; letter-spacing:-.03em; line-height:1.05;
-    margin:0 0 16px; max-width:16ch; text-wrap:balance; position:relative;
+    margin:0 auto 16px; max-width:16ch; text-wrap:balance; position:relative;
   }
-  .dek{max-width:58ch; color:var(--ink-soft); font-size:16px; margin:0 0 28px;}
-  .hero-ctas{display:flex; gap:12px; flex-wrap:wrap; margin-bottom:30px;}
-  .meta-row{display:flex; flex-wrap:wrap; gap:10px;}
+  .dek{max-width:58ch; color:var(--ink-soft); font-size:16px; margin:0 auto 28px;}
+  .hero-ctas{display:flex; gap:12px; flex-wrap:wrap; margin-bottom:30px; justify-content:center;}
+  .meta-row{display:flex; flex-wrap:wrap; gap:10px; justify-content:center;}
   .pill-meta{
     font-family:var(--mono); font-size:11px; letter-spacing:.03em; color:var(--ink-faint);
     background:var(--paper-2); border:1px solid var(--rule); padding:5px 11px; border-radius:999px;
