@@ -15,23 +15,6 @@
     --sans: -apple-system,"Segoe UI","Helvetica Neue",Arial,sans-serif;
     --mono: ui-monospace,"Cascadia Mono","Consolas","SFMono-Regular",Menlo,monospace;
   }
-  @media (prefers-color-scheme: dark){
-    :root{
-      --paper:#111318; --paper-2:#181B21; --paper-3:#1F232B;
-      --ink:#F0F1F3; --ink-soft:#B7BCC5; --ink-faint:#767C88;
-      --rule:#262A31; --blue:#5FBEEA; --blue-soft:#16303B; --red:#F0605F; --red-soft:#3A1A1A;
-    }
-  }
-  :root[data-theme="dark"]{
-    --paper:#111318; --paper-2:#181B21; --paper-3:#1F232B;
-    --ink:#F0F1F3; --ink-soft:#B7BCC5; --ink-faint:#767C88;
-    --rule:#262A31; --blue:#5FBEEA; --blue-soft:#16303B; --red:#F0605F; --red-soft:#3A1A1A;
-  }
-  :root[data-theme="light"]{
-    --paper:#FFFFFF; --paper-2:#F4F5F8; --paper-3:#EBEDF2;
-    --ink:#14161B; --ink-soft:#585F6B; --ink-faint:#9098A3;
-    --rule:#E4E6EA; --blue:#2E9FD9; --blue-soft:#E7F4FB; --red:#E23B3B; --red-soft:#FCEAEA;
-  }
 
   *{box-sizing:border-box;}
   body{margin:0; background:var(--paper); color:var(--ink); font-family:var(--sans); line-height:1.5; -webkit-font-smoothing:antialiased;}
